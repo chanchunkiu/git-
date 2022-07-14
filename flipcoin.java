@@ -20,7 +20,7 @@ public class flipcoin {
         }
         	System.out.println("Heads: " +counthead + " Tails: "+counttail);
         	if(counthead>counttail) {
-        		System.out.println("You won");}
-        		else{System.out.println("You lost");}
+        		System.out.println(user+ " won!");}
+        		else{System.out.println(user+ " lost!");}
         	}
 }
